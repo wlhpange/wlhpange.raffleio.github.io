@@ -1,0 +1,176 @@
+html,
+body {
+    height: 100%;
+}
+
+/*.bg {*/
+/*    background-image: url(../img/bg.jpg);*/
+/*    overflow: hidden;*/
+/*    background-color: #121936;*/
+/*    background-size: 100% 100%;*/
+/*    background-position: center center;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+.bg {
+    background-image: url(../img/bg.jpg);
+    overflow: hidden;
+    background-color: #121936;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+a {
+    color: #fff;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.next {
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 1.5;
+    padding: 20px;
+    /*text-align: center;*/
+    /*position: absolute;*/
+    position: fixed;
+    bottom: 37%;
+    margin-left: 3%;
+    width: 100%;
+    font-family: 宋体, sans-serif;
+}
+
+.next .title {
+    color: yellow;
+}
+
+/*这里*/
+.winners {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myTitle {
+    text-align: center;
+    font-size:100px;
+    margin-top: 5%;
+    font-family: 字魂71号-御守锦书, sans-serif;
+    color: #c9ff00;
+}
+
+#myTitleL {
+    text-align: center;
+    font-size:100px;
+    margin-top: 5%;
+    font-family: 字魂71号-御守锦书, sans-serif;
+    color: #c9ff00;
+}
+
+.winners h2 {
+    margin-top: 0;
+}
+
+.myCC {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.winners h3 {
+    margin-bottom: 5px;
+}
+
+.el-select {
+    width: 130px;
+    margin-right: 10px;
+}
+
+.batch {
+    position: absolute;
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 52%;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.player {
+    display: inline-block;
+    font-size: 300%;
+    text-align: center;
+    width: 45%;
+    /*width: 300px;*/
+    background: #fff;
+    line-height: 60px;
+    color: #000;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+
+}
+
+.lucky-dog {
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+    background: #fff;
+    line-height: 50px;
+    color: #000;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    padding: 5px 0;
+    z-index: 9999;
+}
+
+.result {
+    /*width: 300px;*/
+    /*position: absolute;*/
+    /*top: 150px;*/
+    /*margin: 0 auto;*/
+    /*color: #fff;*/
+    /*line-height: 1.5;*/
+    /*font-size: 30px;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 55%;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
